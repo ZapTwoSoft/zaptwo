@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "zap-two",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "zapTwo is creative development house that help business organizations reach their goal by backing up on their IT enabled services",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Alkemy Hossain <alkemy48@@gmail.com>",
   "dependencies": {
     "@headlessui/react": "^1.2.0",
     "@heroicons/react": "^1.0.1",

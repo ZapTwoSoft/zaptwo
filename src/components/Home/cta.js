@@ -18,7 +18,7 @@ export default function Cta() {
               <div className="inline-flex rounded-md shadow">
                 <Link
                   to="/contact"
-                  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
+                  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-default hover:bg-indigo-700"
                 >
                   Get started
                 </Link>
@@ -26,7 +26,7 @@ export default function Cta() {
               <div className="ml-3 inline-flex rounded-md shadow">
                 <a
                   href="tel:+8801521109475"
-                  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50"
+                  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-default bg-white hover:bg-indigo-50"
                 >
                   Call Us
                 </a>

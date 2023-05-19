@@ -77,7 +77,7 @@ export default function Services() {
                 className="relative transform duration-500 hover:-translate-y-2  hover:bg-white"
               >
                 <dt>
-                  <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                  <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-default text-white">
                     <feature.icon className="h-6 w-6" aria-hidden="true" />
                   </div>
                   <Link
@@ -90,7 +90,7 @@ export default function Services() {
                 <dd className="mt-2 ml-16 text-base text-gray-500 text-justify hidden md:block">
                   {feature.description}{" "}
                   <span>
-                    <Link to={feature.to} className="text-indigo-500">
+                    <Link to={feature.to} className="text-default">
                       Learn More..
                     </Link>
                   </span>
