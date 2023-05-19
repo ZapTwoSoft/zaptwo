@@ -10,12 +10,6 @@ import Serve from "../components/Home/serve"
 import Cta from "../components/Home/cta"
 import Blog from "../components/Home/blogs"
 
-/**
- *
- * To Do
- * @ Review overall spacing.
- */
-
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />

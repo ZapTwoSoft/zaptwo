@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `The BlueSpace`,
-    description: `BlueSpace is a Canada and Bangladesh based IT Solutions company providing services like Web App development, SEO, Data Visualization and many more.`,
-    author: `@alkemyHossain`,
+    title: `ZapTwo`,
+    description: `ZapTwo is a Canada and Bangladesh based IT Solutions company providing services like Web App development, SEO, Data Visualization and many more.`,
+    author: `@csAlkemy`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,18 +20,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `BlueSpace`,
-        short_name: `BlueSpace`,
+        name: `ZapTwo`,
+        short_name: `ZapTwo`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/logo.jpg`, // This path is relative to the root of the site.
+        icon: `src/images/ZapTwo.png`,
       },
     },
     `gatsby-plugin-gatsby-cloud`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }

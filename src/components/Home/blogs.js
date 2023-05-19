@@ -65,7 +65,7 @@ function blogs() {
               <Link
                 target="_blank"
                 to={blog.href}
-                className=" block items-center justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                className=" block items-center justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-default hover:bg-indigo-700"
               >
                 Read Now
               </Link>

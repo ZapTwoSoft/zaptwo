@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Roboto", Sans-serif, serif;
+}
+
 .imageClass {
   height: 400px;
   width: 400px;

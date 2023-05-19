@@ -9,7 +9,12 @@ module.exports = {
       "3/4": "75%",
       "4/5": "81%",
     },
-    extend: {},
+    extend: {
+      colors: {
+        default: "#ED495F",
+        "default-50": "#FFF4F6",
+      },
+    },
   },
   variants: {
     extend: {},
