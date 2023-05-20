@@ -1,16 +1,8 @@
 /* This example requires Tailwind CSS v2.0+ */
-import React, { Fragment } from "react"
-import { Popover, Transition } from "@headlessui/react"
+import React, {Fragment} from "react"
+import {Popover, Transition} from "@headlessui/react"
 import Logo from "../images/ZapTwo.png"
-import {
-  ArrowCircleRightIcon,
-  CurrencyDollarIcon,
-  CursorClickIcon,
-  MenuIcon,
-  PhoneIcon,
-  TerminalIcon,
-  XIcon,
-} from "@heroicons/react/outline"
+import {CursorClickIcon, MenuIcon, PhoneIcon, TerminalIcon, XIcon,} from "@heroicons/react/outline"
 import {
   ChartPieIcon,
   ChevronDownIcon,
@@ -18,7 +10,7 @@ import {
   MailIcon,
   PresentationChartBarIcon,
 } from "@heroicons/react/solid"
-import { Link } from "gatsby"
+import {Link} from "gatsby"
 
 const solutions = [
   {
@@ -53,20 +45,6 @@ const solutions = [
     icon: CubeTransparentIcon,
   },
 ]
-
-const callsToAction = [
-  {
-    name: "Portfolio",
-    icon: ArrowCircleRightIcon,
-    to: "/portfolio",
-  },
-  {
-    name: "Contact",
-    icon: CurrencyDollarIcon,
-    to: "/contact",
-  },
-]
-
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ")
 }

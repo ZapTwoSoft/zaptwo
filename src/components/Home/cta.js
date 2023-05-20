@@ -5,10 +5,10 @@ export default function Cta() {
     <div className="BgImageClass mt-20 pb-15">
       <div className="max-h-full md:max-w-3/4 xl:max-w-3/5 mx-auto py-20">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
-          <div className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-            <span className="block text-white">Ready to dive in?</span>
-            <span className="block text-blue-500 ">Join Us as a Partner.</span>
-            <span className=" block text-lg text-white font-normal text-left mt-2">
+          <div className="text-3xl font-extrabold text-gray-900 sm:text-5xl">
+            <span className="block text-white mb-3">Ready to dive in?</span>
+            <span className="block text-default">Join Us as a Partner.</span>
+            <span className=" block text-base text-white font-normal text-left mt-2">
               With the help of our partners, we can share our expertise and
               resources around the world. And thus we are expanding as the home
               of top IT professionals. So contact us to see how you can join our
@@ -18,17 +18,17 @@ export default function Cta() {
               <div className="inline-flex rounded-md shadow">
                 <Link
                   to="/contact"
-                  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-default hover:bg-indigo-700"
+                  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-semibold rounded-full text-white bg-default hover:bg-default-50 hover:text-default"
                 >
                   Get started
                 </Link>
               </div>
               <div className="ml-3 inline-flex rounded-md shadow">
                 <a
-                  href="tel:+8801521109475"
-                  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-default bg-white hover:bg-indigo-50"
+                  href="mailto:zaptwosoft@gmail.com"
+                  className="inline-flex items-center bg-default-50 justify-center px-5 py-3 border-2 border-default text-base font-semibold rounded-full text-default bg-white hover:bg-indigo-50"
                 >
-                  Call Us
+                  Mail Us
                 </a>
               </div>
             </div>

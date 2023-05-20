@@ -56,20 +56,20 @@ const features = [
 
 export default function Services() {
   return (
-    <div className="pb-10 max-h-full md:max-w-3/4 xl:max-w-3/5 mx-auto mb-20">
+    <div className="pb-10 max-h-full md:max-w-3/4 xl:max-w-3/5 mx-auto mb-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
-          <p className="text-4xl md:text-5xl font-semibold leading-8 tracking-tight text-gray-900 sm:text-4xl mb-5">
+          <p className="text-center text-3xl text-default md:text-4xl mt-5 font-semibold">
             Our Services
           </p>
-          <p className="mb-20 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+          <p className="mb-20 max-w-2xl text-base my-5 text-gray-500 lg:mx-auto">
             We as a big team provide IT enable support including Web and App
             development, IT Consultation, SEO, Digital Marketing, Data Analysis
             and many more.
           </p>
         </div>
 
-        <div className="mt-10">
+        <div className="mt-5">
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
             {features.map(feature => (
               <div
@@ -82,12 +82,12 @@ export default function Services() {
                   </div>
                   <Link
                     to={feature.to}
-                    className="ml-16 text-sm sm:text-lg leading-6 font-medium text-gray-900"
+                    className="ml-16 text-sm sm:text-base font-bold text-default leading-6 font-medium text-gray-900"
                   >
                     {feature.name}
                   </Link>
                 </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500 text-justify hidden md:block">
+                <dd className="mt-2 ml-16 text-sm text-gray-500 text-justify hidden md:block">
                   {feature.description}{" "}
                   <span>
                     <Link to={feature.to} className="text-default">
