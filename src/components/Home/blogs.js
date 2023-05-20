@@ -36,9 +36,9 @@ const Blogs = [
 
 function blogs() {
   return (
-    <div className="max-h-full md:max-w-3/4 xl:max-w-3/5 mx-auto my-5">
-      <h1 className="text-center text-4xl md:text-5xl py-10 font-semibold">
-        Blog Posts
+    <div className="max-h-full md:max-w-3/4 xl:max-w-3/5 mx-auto my-10">
+      <h1 className="text-center text-3xl text-default md:text-4xl font-semibold">
+        Articles
       </h1>
       <p className="text-xl text-gray-600 font-medium text-center">
         How we help business achieve their goal.

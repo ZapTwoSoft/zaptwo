@@ -4,12 +4,12 @@ import React from "react"
 const hero = () => {
   return (
     <div className="bg-gray-800">
-      <div className="max-h-full py-20 md:max-w-4/5 mx-5 md:mx-auto text-white ">
-        <h1 className="text-center text-5xl md:text-7xl font-semibold mt-10 md:mt-32 ">
+      <div className="max-h-full py-10 md:max-w-4/5 mx-5 md:mx-auto text-white ">
+        <h1 className="text-center text-5xl md:text-7xl font-semibold mt-10 md:mt-16 ">
           Building Digital <br /> Products, Brands, and <br /> Experiences.
         </h1>
         <p className="text-center text-xl text-gray-50 mt-5  ">
-          BlueSpace love to help company with cutting edge technology
+          ZapTwo love to help company with cutting edge technology
         </p>
         <div className="mt-5 sm:mt-8 flex justify-center ">
           <div className="rounded-md shadow">
