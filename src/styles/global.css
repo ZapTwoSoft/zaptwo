@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-family: "Roboto", Sans-serif, serif;
+  font-family: 'Ubuntu Mono', sans-serif;
 }
 
 .imageClass {
