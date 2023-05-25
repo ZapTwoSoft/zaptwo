@@ -26,7 +26,7 @@ export default function Cta() {
               <div className="ml-3 inline-flex rounded-md shadow">
                 <a
                   href="mailto:zaptwosoft@gmail.com"
-                  className="inline-flex items-center bg-default-50 justify-center px-5 py-3 border-2 border-default text-base font-semibold rounded-full text-default bg-white hover:bg-indigo-50"
+                  className="inline-flex items-center bg-default-50 justify-center px-5 py-3 text-base font-semibold rounded-full text-default bg-white hover:bg-default hover:text-white"
                 >
                   Mail Us
                 </a>

@@ -43,7 +43,7 @@ function blogs() {
       <p className="text-xl text-gray-600 font-medium text-center">
         How we help business achieve their goal.
       </p>
-      <div className="p-5 md:p-0 grid grid-cols-1 mt-10 mb-28 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-16 ">
+      <div className="p-5 md:p-0 grid grid-cols-1 mt-10 mb-28 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-5 ">
         {Blogs.map(blog => (
           <div
             key={blog.title}

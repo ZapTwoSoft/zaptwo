@@ -20,7 +20,7 @@ function hero() {
             <div className="rounded-md">
               <Link
                 to="/contact"
-                className="w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-full text-white border-2 hover:border-default bg-default hover:bg-default-50 hover:text-default md:py-3 md:text-lg md:px-10"
+                className="w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-full text-white hover:border-2 hover:border-default bg-default hover:bg-default-50 hover:text-default md:py-3 md:text-lg md:px-10"
               >
                 Services
               </Link>

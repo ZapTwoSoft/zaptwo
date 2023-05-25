@@ -11,8 +11,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        default: "#ED495F",
-        "default-50": "#FFF4F6",
+        default: "#1c768f",
+        "default-50": "#EFF6FB",
       },
     },
   },
