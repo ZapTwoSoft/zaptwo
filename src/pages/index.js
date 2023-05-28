@@ -9,6 +9,8 @@ import WhyUS from "../components/Home/whyUs"
 import Serve from "../components/Home/serve"
 import Cta from "../components/Home/cta"
 import Blog from "../components/Home/blogs"
+import ClientsComponent from "../components/Home/clients"
+import Technologies from "../components/Home/technologies"
 
 const IndexPage = () => (
   <Layout>
@@ -16,7 +18,9 @@ const IndexPage = () => (
     <div className="mt-10">
       <Hero />
       <WhyUS />
+      <ClientsComponent />
       <Services />
+      <Technologies />
       <Serve />
       <Testimonial />
       <Cta />

@@ -1,8 +1,14 @@
 /* This example requires Tailwind CSS v2.0+ */
-import React, {Fragment} from "react"
-import {Popover, Transition} from "@headlessui/react"
+import React, { Fragment } from "react"
+import { Popover, Transition } from "@headlessui/react"
 import Logo from "../images/ZapTwo.png"
-import {CursorClickIcon, MenuIcon, PhoneIcon, TerminalIcon, XIcon,} from "@heroicons/react/outline"
+import {
+  CursorClickIcon,
+  MenuIcon,
+  PhoneIcon,
+  TerminalIcon,
+  XIcon,
+} from "@heroicons/react/outline"
 import {
   ChartPieIcon,
   ChevronDownIcon,
@@ -10,38 +16,38 @@ import {
   MailIcon,
   PresentationChartBarIcon,
 } from "@heroicons/react/solid"
-import {Link} from "gatsby"
+import { Link } from "gatsby"
 
 const solutions = [
   {
     name: "Web Development",
     description:
       "Build super fast websites that's takes less then 6s to load with us.",
-    to: "/webdev",
+    to: "/services/webdev",
     icon: TerminalIcon,
   },
   {
     name: "App Development",
     description: "We will help you build your customized applications. ",
-    to: "/appdev",
+    to: "/services/appdev",
     icon: CursorClickIcon,
   },
   {
     name: "Search Engine Optimization",
     description: "We make your site stand on the top",
-    to: "/seoWork",
+    to: "/services/seoWork",
     icon: PresentationChartBarIcon,
   },
   {
     name: "Digital Marketing",
     description: "Our Expert will help your drive more potential buyers.",
-    to: "/digital_m",
+    to: "/services/digital_m",
     icon: ChartPieIcon,
   },
   {
     name: "Data Analysis",
     description: "Data visulization using Python, R, Power BI",
-    to: "/dataAnalysis",
+    to: "/services/dataAnalysis",
     icon: CubeTransparentIcon,
   },
 ]
