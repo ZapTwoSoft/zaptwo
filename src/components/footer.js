@@ -24,7 +24,7 @@ const footer = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/webdev">Services</Link>
+                <Link to="/services/webdev">Services</Link>
               </li>
               <li>
                 <Link to="/portfolio">Our Works</Link>
@@ -41,18 +41,18 @@ const footer = () => {
             <h3 className="text-base font-bold text-default md:mt-0 mt-3">Services.</h3>
             <ul className="font-light text-sm">
               <li>
-                <Link to="/webdev">Web Development</Link>{" "}
+                <Link to="/services/webdev">Web Development</Link>{" "}
               </li>
-              <Link to="/appdev">
+              <Link to="/services/appdev">
                 <li>App Development</li>
               </Link>
-              <Link to="/seoWork">
+              <Link to="/services/seoWork">
                 <li>SEO</li>
               </Link>
-              <Link to="/dataAnalysis">
+              <Link to="/services/dataAnalysis">
                 <li>Data Analysis</li>
               </Link>
-              <Link to="/digital_m">
+              <Link to="/services/digital_m">
                 <li>Digital Marketing</li>
               </Link>
             </ul>
