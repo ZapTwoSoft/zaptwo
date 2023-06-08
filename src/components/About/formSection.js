@@ -1,10 +1,6 @@
 import { MailIcon, PhoneIcon } from "@heroicons/react/outline"
 import * as React from "react"
-import {
-  AiFillFacebook,
-  AiFillLinkedin,
-  AiFillTwitterSquare,
-} from "react-icons/ai"
+import { FaFacebookSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa"
 
 const formSection = () => {
   return (
@@ -12,12 +8,12 @@ const formSection = () => {
       <div className="max-h-full md:max-w-3/4 xl:max-w-3/5 mx-auto py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="pl-4">
-            <h1 className="text-7xl text-gray-700 font-light pb-10 mt-16">
-              Get In Touch
-            </h1>
+            <div className="text-5xl text-gray-700 font-light pb-10 mt-16">
+              Let's Talk Tech !
+            </div>
             <p className="text-left text-base font-medium text-gray-500">
-              Don't Want to fillup forms ? <br /> Just ping us on message or
-              give us a call. We will handle the rest.
+              Have something in mind? Leave us a quick message for a free
+              consultancy session.
             </p>
             <div className="flex flex-row mt-10">
               <PhoneIcon className="h-5" />
@@ -29,32 +25,32 @@ const formSection = () => {
               <MailIcon className="h-5" />
               <a
                 className="ml-3  mb-5 text-xl"
-                href="mailto:info@bluespaces.xyz"
+                href="mailto:zaptwosoft@gmail.com"
               >
-                thebluespace@gmail.com
+                zaptwosoft@gmail.com
               </a>
             </div>
             <div className="flex gap-1">
               <a
-                href="https://www.facebook.com/bluespaces.xyz"
+                href="https://www.facebook.com/zaptwoo/"
                 rel="noreferrer"
                 target="_blank"
               >
-                <AiFillFacebook className="h-7 w-7 text-blue-600" />
+                <FaFacebookSquare className="h-14 w-14 text-blue-600" />
               </a>
               <a
-                href="https://www.linkedin.com/company/74349398/"
+                href="https://www.linkedin.com/company/zaptwo/"
                 rel="noreferrer"
                 target="_blank"
               >
-                <AiFillLinkedin className="h-7 w-7 text-blue-800" />
+                <FaLinkedin className="h-14 w-14 text-blue-800" />
               </a>
               <a
-                href="https://twitter.com/BlueSpacesLLC"
+                href="https://twitter.com/zaptwoSoft"
                 rel="noreferrer"
                 target="_blank"
               >
-                <AiFillTwitterSquare className="h-7 w-7" />
+                <FaTwitterSquare className="h-14 w-14 text-default" />
               </a>
             </div>
           </div>
@@ -76,7 +72,7 @@ const formSection = () => {
                   required
                   type="text"
                   name="name"
-                  className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                  className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                   aria-label="name"
                   placeholder="Name"
                 />
@@ -89,7 +85,7 @@ const formSection = () => {
                   required
                   type="email"
                   name="email"
-                  className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                  className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                   aria-label="email"
                   placeholder="Email"
                 />
@@ -101,7 +97,7 @@ const formSection = () => {
                 <input
                   type="text"
                   name="phone"
-                  className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                  className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                   aria-label="phone"
                   placeholder="Phone"
                 />
@@ -113,7 +109,7 @@ const formSection = () => {
                 <select
                   name="ServiceType"
                   type="text"
-                  className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                  className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                   aria-label="ServiceType"
                 >
                   <option value="Web Development">Web Development</option>
@@ -131,14 +127,15 @@ const formSection = () => {
                 <textarea
                   name="message"
                   type="text"
-                  className="bg-gray-200 resize appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                  rows={5}
+                  className="bg-gray-200 resize appearance-none border-2 border-gray-200 rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                   aria-label="Message"
                   placeholder="Message"
                 />
               </div>
               <button
                 type="submit"
-                className=" w-full py-2 px-4 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 "
+                className=" w-full py-3 px-4 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-default hover:bg-default focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-default-50 "
               >
                 Send
               </button>

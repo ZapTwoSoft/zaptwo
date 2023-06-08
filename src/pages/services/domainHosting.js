@@ -2,10 +2,10 @@ import * as React from "react"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-import FormSection from "../../components/About/formSection"
 import { CursorClickIcon, GlobeAltIcon } from "@heroicons/react/outline"
 import ProjectTwo from "../../images/souvik-banerjee-OMhubJCrtu0-unsplash.jpg"
 import ServicesComponent from "../../components/Services"
+import ContactUsCTA from "../../components/About/contactCTA"
 
 const mockData = {
   title: "Domain and Hosting",
@@ -45,7 +45,7 @@ const DomainHosting = () => (
   <Layout>
     <Seo title="Domain and Hosting" />
     <ServicesComponent mockData={mockData} />
-    <FormSection />
+    <ContactUsCTA />
   </Layout>
 )
 

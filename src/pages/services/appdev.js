@@ -2,14 +2,10 @@ import * as React from "react"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-import FormSection from "../../components/About/formSection"
-import {
-  CursorClickIcon,
-  GlobeAltIcon,
-  TrendingUpIcon,
-} from "@heroicons/react/outline"
+import {CursorClickIcon, GlobeAltIcon, TrendingUpIcon,} from "@heroicons/react/outline"
 import ProjectTwo from "../../images/appdev.jpg"
 import ServicesComponent from "../../components/Services";
+import ContactUsCTA from "../../components/About/contactCTA";
 
 const mockData = {
   title: "App Development",
@@ -58,8 +54,8 @@ const mockData = {
 const AppDev = () => (
   <Layout>
     <Seo title="App Development" />
-      <ServicesComponent mockData={mockData} />
-    <FormSection />
+    <ServicesComponent mockData={mockData} />
+    <ContactUsCTA />
   </Layout>
 )
 

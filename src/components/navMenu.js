@@ -193,7 +193,7 @@ export default function Example() {
                 <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                   <Link
                     to="/contact"
-                    className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-full text-bold shadow-sm text-base font-semibold bg-default-50 text-default hover:text-default-50 hover:bg-default"
+                    className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-full text-bold shadow-sm text-base font-semibold bg-default text-default-50 hover:text-default hover:bg-default-50"
                   >
                     Contact Us
                   </Link>

@@ -1,5 +1,4 @@
 import React from "react"
-import User from "../../images/svg/user.svg"
 
 function testimonial() {
   return (
@@ -10,76 +9,110 @@ function testimonial() {
       <p className="text-xl font-medium text-center mt-5">
         That's What our Valuable Customer told about us.
       </p>
-      <div className="p-5 md:p-0 grid grid-cols-1 mt-10 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-5 ">
-        <div className="bg-gray-900 text-white  shadow-lg  transform duration-500 hover:-translate-y-2 rounded-md shadow-lg">
-          <p className="text-8xl text-center mt-5 text-default">&#8221;</p>
-          <p className="px-6 pb-3 text-center">
-            "I am glad that I found zaptwo and I recommend that you consider
-            them for your SEO website services."
-          </p>
-          <div className=" xl:absolute static inset-x-0 bottom-0  ">
-            <img
-              src={User}
-              className=" rounded-full h-10 mx-auto my-auto mb-5 "
-              alt="customers"
-            />
-            <p className="  text-center mb-10 text-white text-xl  font-medium">
-              Edward Brake
-            </p>
+      <section className="py-10 bg-white sm:py-16 lg:py-24">
+        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 gap-6 lg:gap-10 sm:grid-cols-2 md:grid-cols-3">
+
+            <div className="flex flex-col bg-white border border-gray-200 rounded-md">
+              <div className="flex flex-col justify-between flex-1 p-8">
+                <div className="flex-1">
+                  <blockquote>
+                    <p className="text-lg text-gray-800">
+                      “Simply the best. Better than all the rest. I’d recommend
+                      this product to beginners and advanced users.”
+                    </p>
+                  </blockquote>
+                </div>
+
+                <div className="mt-8">
+                  <div className="w-full h-0 mb-8 border-t-2 border-gray-200 border-dotted"></div>
+                  <div className="flex items-center">
+                    <img
+                      className="flex-shrink-0 object-cover w-10 h-10 rounded-full"
+                      src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/8/avatar-2.jpg"
+                      alt=""
+                    />
+                    <div className="min-w-0 ml-3">
+                      <p className="text-base font-semibold text-gray-800 truncate">
+                        Ronald Richards
+                      </p>
+                      <p className="text-base text-gray-500 truncate">
+                        Marketing Coordinator
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col bg-white border border-gray-200 rounded-md">
+              <div className="flex flex-col justify-between flex-1 p-8">
+                <div className="flex-1">
+                  <blockquote>
+                    <p className="text-lg text-gray-800">
+                      “Finally, I’ve found a template that covers all bases for
+                      a bootstrapped startup. We were able to launch in days,
+                      not months.”
+                    </p>
+                  </blockquote>
+                </div>
+
+                <div className="mt-8">
+                  <div className="w-full h-0 mb-8 border-t-2 border-gray-200 border-dotted"></div>
+                  <div className="flex items-center">
+                    <img
+                      className="flex-shrink-0 object-cover w-10 h-10 rounded-full"
+                      src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/8/avatar-4.jpg"
+                      alt=""
+                    />
+                    <div className="min-w-0 ml-3">
+                      <p className="text-base font-semibold text-gray-800 truncate">
+                        Theresa Webb
+                      </p>
+                      <p className="text-base text-gray-500 truncate">
+                        Web Designer
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col bg-white border border-gray-200 rounded-md">
+              <div className="flex flex-col justify-between flex-1 p-8">
+                <div className="flex-1">
+                  <blockquote>
+                    <p className="text-lg text-gray-800">
+                      “My new site is so much faster and easier to work with
+                      than my old site. I just choose the page, make the change
+                      and click save.”
+                    </p>
+                  </blockquote>
+                </div>
+
+                <div className="mt-8">
+                  <div className="w-full h-0 mb-8 border-t-2 border-gray-200 border-dotted"></div>
+                  <div className="flex items-center">
+                    <img
+                      className="flex-shrink-0 object-cover w-10 h-10 rounded-full"
+                      src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/8/avatar-5.jpg"
+                      alt=""
+                    />
+                    <div className="min-w-0 ml-3">
+                      <p className="text-base font-semibold text-gray-800 truncate">
+                        Darlene Robertson
+                      </p>
+                      <p className="text-base text-gray-500 truncate">
+                        Medical Assistant
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="bg-gray-900 text-white shadow-lg transform duration-500 hover:-translate-y-2  rounded-md shadow-lg">
-          <p className="text-8xl text-center mt-5 text-default">&#8221;</p>
-          <p className="px-6 pb-3 text-center">
-            "I give them the highest marks for the work they’ve done because
-            it’s been excellent."
-          </p>
-          <div className=" xl:absolute static  inset-x-0 bottom-0  ">
-            <img
-              src={User}
-              className="rounded-full h-10 my-auto mx-auto mb-5"
-              alt="customers"
-            />
-            <p className="text-center mb-10 text-white text-xl font-medium">
-              Mike John
-            </p>
-          </div>
-        </div>
-        <div className="bg-gray-900 text-white  shadow-lg  transform duration-500 hover:-translate-y-2 rounded-md shadow-lg">
-          <p className="text-8xl text-center mt-5 text-default">&#8221;</p>
-          <p className="px-6 pb-3 text-center">
-            Thanks to ZapTwo, the website is now up and running and it is
-            super fast.
-          </p>
-          <div className=" mt-0 lg:mt-16 static inset-0 bottom-0   ">
-            <img
-              src={User}
-              className="rounded-full h-10 my-auto mx-auto mb-5"
-              alt="customers"
-            />
-            <p className="text-center mb-10 text-white text-xl font-medium">
-              7House CA
-            </p>
-          </div>
-        </div>
-        <div className="bg-gray-900 text-white  shadow-lg transform duration-500 hover:-translate-y-2 rounded-md shadow-lg">
-          <p className="text-8xl text-center mt-5 text-default">&#8221;</p>
-          <p className="px-6 pb-3 text-center">
-            ZapTwo Digital Marketing team provides excellent service. They
-            keep their partners in the loop by providing regular reports.
-          </p>
-          <div className="  static inset-x-0 bottom-0 mt-5  ">
-            <img
-              src={User}
-              className="rounded-full h-10 my-auto mx-auto mb-5"
-              alt="customers"
-            />
-            <p className="text-center mb-10 text-white text-xl font-medium">
-              rozalthiric
-            </p>
-          </div>
-        </div>
-      </div>
+      </section>
     </div>
   )
 }
