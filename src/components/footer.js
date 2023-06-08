@@ -100,7 +100,7 @@ const footer = () => {
             </div>
             <div className="flex gap-1">
               <a
-                href="https://www.facebook.com/bluespaces.xyz"
+                href="https://www.facebook.com/zaptwoo/"
                 rel="noreferrer"
                 target="_blank"
               >

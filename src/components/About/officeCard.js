@@ -14,7 +14,7 @@ const officeCard = () => {
         Office Locations
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3  gap-7 my-10">
-        <div className="bg-gray-800 text-white  p-5 py-5 shadow-md">
+        <div className="bg-gray-800 text-white  p-5 py-5 shadow-md rounded-xl">
           <img src={BdMap} alt="bd map" className="h-20 mx-auto"></img>
           <h1 className="text-center text-2xl font-normal mt-2">Bangladesh</h1>
           <div className="p-2 my-5">
@@ -39,7 +39,7 @@ const officeCard = () => {
             </div>
           </div>
         </div>
-        <div className=" text-gray-800 bg-white p-4 py-5 shadow-xl">
+        <div className=" text-gray-800 bg-white border-2 border-default rounded-xl p-4 py-5 shadow-xl">
           <img src={CaMap} alt="bd map" className="h-20 mx-auto"></img>
           <h1 className="text-center text-2xl font-normal mt-2">Canada</h1>
           <div className="p-2 my-5">
@@ -65,7 +65,7 @@ const officeCard = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-800 text-white p-5 py-5 shadow-md">
+        <div className="bg-gray-800 text-white p-5 py-5 shadow-md rounded-xl">
           <img src={BdMap} alt="bd map" className="h-20 mx-auto"></img>
           <h1 className="text-center text-2xl font-normal mt-2">Bangladesh</h1>
           <div className="p-2 my-5">

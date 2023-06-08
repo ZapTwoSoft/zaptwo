@@ -45,7 +45,7 @@ function whyUs() {
             {pageData.map(item => (
               <div
                 key={item.id}
-                className="p-7 text-left transform duration-500 hover:-translate-y-1 hover:shadow hover:bg-white cursor-pointer border-2 border-gray-700 rounded-xl h-full"
+                className="bg-white p-7 text-left transform duration-500 hover:-translate-y-1 hover:shadow hover:bg-white cursor-pointer border-2 border-gray-700 rounded-xl h-full"
               >
                 <img
                   className="mx-auto mb-2 h-28"
